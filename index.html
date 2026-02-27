@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine Letter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Envelope Screen-->
+    <div id="envelopeContainer">
+        <img src="./Assets/envelope.png" alt="Envelope" id="envelope">
+        <p>♡ Letter for you ♡</p>
+    </div>
+
+    <!--Letter Screen-->
+    <div id="letterContainer">
+        <div class="letterWindow">
+            <h1 id="letterTitle">Will you be my Valentine?</h1>
+
+            <img src="./Assets/cat_heart.gif" class="cat" id="letterCat">
+
+            <div class="buttons" id="letterButtons">
+                <img src="./Assets/yes.png" alt="Yes" class="btn YesBtn">
+                <div class="noWrapper">
+                    <img src="./Assets/no.png" alt="No" class="btn NoBtn">
+                </div>
+            </div>
+
+            <p id="finalText" class="finalText" style="display: none;">
+                <strong>Valentine Date:</strong> Meow Restaurant at 7p.m. Dress Fancy.
+            </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
